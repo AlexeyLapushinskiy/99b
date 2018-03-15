@@ -1,0 +1,68 @@
+{
+  "name": "99b",
+  "version": "1.0.0",
+  "babel": {
+    "plugins": [
+      [
+        "transform-runtime",
+        {
+          "polyfill": false,
+          "regenerator": true
+        }
+      ]
+    ]
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavehcito/99b.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "history": "^4.7.2",
+    "moment": "^2.19.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.1",
+    "morgan": "^1.9.0",
+    "nconf": "^0.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-facebook-login": "^3.7.2",
+    "react-router-dom": "^4.2.2",
+    "react-stripe-checkout": "^2.6.3",
+    "react-stripe-elements": "^1.2.1",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.1",
+    "styled-components": "^2.2.3"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "nodemon": "^1.12.1",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
